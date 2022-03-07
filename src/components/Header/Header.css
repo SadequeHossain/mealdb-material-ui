@@ -1,0 +1,18 @@
+.header{
+
+    border: solid 5px red;
+    height: 75px;
+    text-align: center;
+    padding-top:20px;
+    Background-color:rgba(231, 110, 110, 0.904);
+    
+}
+
+.nav{
+    text-decoration: none;
+    color: white;font-size: x-large;
+    padding: 0 10px 0 10px;
+   
+    
+    
+}
