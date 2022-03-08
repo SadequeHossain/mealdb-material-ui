@@ -1,4 +1,4 @@
-import { Button, Card, CardActionArea, CardContent, CardMedia, Typography } from '@material-ui/core';
+import { Button, Card, CardActionArea, CardContent, CardMedia, Container, Typography } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
@@ -29,30 +29,32 @@ const Mealdetails = () => {
 
 
     return (
-        <Card className="carddetail" sx={{ maxWidth: 345 }}>
-            <CardActionArea>
-                <CardMedia
-                    component="img"
-                    height="540"
+        <Container className="about-container" maxWidth="sm">
+            <Card className="carddetail" sx={{ maxWidth: 345 }}>
+                <CardActionArea>
+                    <CardMedia
+                        component="img"
+                        height="540"
 
-                    image={strMealThumb}
-                    alt="green iguana"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        Item Name: {strMeal}
-                        <h5>Area: {strArea}</h5>
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        <h3>How to Make?</h3>
+                        image={strMealThumb}
+                        alt="green iguana"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            Item Name: {strMeal}
+                            <h5>Area: {strArea}</h5>
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            <h3>How to Make?</h3>
 
-                        {strInstructions}
-                    </Typography>
-                </CardContent>
-            </CardActionArea>
+                            {strInstructions}
+                        </Typography>
+                    </CardContent>
+                </CardActionArea>
 
-            <Button onClick={handleClick} variant="outlined">See Details</Button>
-        </Card>
+                <Button onClick={handleClick} variant="outlined">See Details</Button>
+            </Card>
+        </Container>
     );
 };
 

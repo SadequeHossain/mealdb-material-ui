@@ -1,7 +1,7 @@
 .carddetail{
-    margin-left: 100px;
-    margin-right: 100px;
+   
     margin-top:50px;
-
+  border: 2px solid red;
     margin-bottom:50px;
+    width:100%;
 }

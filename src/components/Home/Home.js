@@ -5,7 +5,7 @@ import './Home.css'
 const Home = () => {
     return (
 
-        <Container maxWidth="sm">
+        <Container className="home-container" maxWidth="sm">
             <Card className="homeCard" sx={{ maxWidth: 345 }}>
                 <CardMedia
 

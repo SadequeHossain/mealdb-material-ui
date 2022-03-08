@@ -46,7 +46,7 @@ const Foodcard = (props) => {
 
             {/* <Link to={url}> Visit Me</Link> */}
 
-            <Button onClick={handleClick} variant="outlined">See Details</Button>
+            <Button className="detailsbtn" onClick={handleClick} variant="outlined">See Details</Button>
 
         </Card>
     );

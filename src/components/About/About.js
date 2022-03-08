@@ -1,6 +1,8 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Container, Typography } from '@material-ui/core';
 import React from 'react';
 
+import './About.css'
+
 const About = () => {
     return (
         <Container className="about-container" maxWidth="sm">
