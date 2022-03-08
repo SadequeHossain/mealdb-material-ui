@@ -1,7 +1,7 @@
 .header{
 
     border: solid 5px red;
-    height: 60px;
+    height: 40px;
     text-align: center;
     padding-top:30px;
     Background-color:red
@@ -24,7 +24,15 @@
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px  rgba(39, 36, 36, 0.363);
 }
-.header:hover{
-    height: 65px;
-    box-shadow: 10px 10px 5px 5px  rgba(255, 0, 0, 0.116);
+
+
+.control-input{
+    text-align: right;
+    margin-right:30px;
+    
+}
+
+input{
+    width: 200px;
+    height: 30x;
 }

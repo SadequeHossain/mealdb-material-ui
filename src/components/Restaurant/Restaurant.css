@@ -3,3 +3,33 @@
     margin: 70px;
     
 }
+
+#mealText{
+    width: 50%;
+    height:30px;
+    border-radius:5px;
+}
+.searchBox{
+    text-align: center;
+    background-color: red;
+    padding-bottom: 5px;
+    height: 40px;
+}
+
+.searchBox:hover{
+    box-shadow: 10px 10px 5px 5px  rgba(255, 0, 0, 0.116);
+    height: 45px;
+}
+
+.searchBox button{
+    height:40px;
+    font-weight: 700;
+    border-radius:5px;
+    font-size:larger;
+}
+
+.searchBox button:hover{
+    color: red;
+    background-color:white;
+    box-shadow: 5px 5px 5px 5px  rgba(114, 60, 60, 0.486);
+}
