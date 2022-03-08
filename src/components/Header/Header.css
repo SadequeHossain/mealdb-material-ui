@@ -1,10 +1,10 @@
 .header{
 
     border: solid 5px red;
-    height: 75px;
+    height: 60px;
     text-align: center;
-    padding-top:20px;
-    Background-color:rgba(231, 110, 110, 0.904);
+    padding-top:30px;
+    Background-color:red
     
 }
 
@@ -15,4 +15,16 @@
    
     
     
+}
+
+.nav:hover{
+    color: red;
+    font-weight: bold;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px  rgba(39, 36, 36, 0.363);
+}
+.header:hover{
+    height: 65px;
+    box-shadow: 10px 10px 5px 5px  rgba(255, 0, 0, 0.116);
 }
